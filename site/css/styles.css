@@ -83,12 +83,13 @@ body{
                 padding-top: 35px;
                 padding-bottom: 30px;
                 background-color: #222;
+                opacity: .9;
                 border-top: 0;
             
             }
             
             .panel-footer div.row{
-                margin-bottom: 55px;
+                margin-bottom: 75px;
             }
             
 
@@ -97,7 +98,7 @@ body{
             /*END OF FOOTER */
             .container .jumbotron 
             {
-                box-shadow: 0 0 80px rgb(75, 87, 201);
+               /* box-shadow: 0 0 80px rgb(75, 87, 201); */
                 border: 2px solid black;
             }
 
@@ -116,13 +117,15 @@ body{
             }
             
             #menu-title{
-                background: url('../images/about2.jpg') no-repeat;
+                background: url('../images/drhs1.jpg') no-repeat;
                 background-position: center;
+
+
             
             }
             #specials-title{
-                background: url('../images/info1.png') no-repeat;
-                background-position: center;
+                background: url('../images/info2.png') no-repeat;
+                background-position: top;
             
             }
             #menu-title span,#specials-title span,#map-title span{
@@ -188,12 +191,13 @@ body{
 
     .navbar-brand h1{
         padding-top: 10px;
-        font-size: 5vw; /* 1vw =1% of viewport width */
+        font-size: 6vw; /* 1vw =1% of viewport width */
     }
     
     .navbar-brand p{
-       font-size: .6em;
-       margin-top: 12px;
+       font-size: .7em;
+       font-weight: 570;
+       margin-top: 9px;
 
     }
 
